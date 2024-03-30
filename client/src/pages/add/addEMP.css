@@ -1,0 +1,53 @@
+.addEMP-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addEMPform{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 30px 10px 0 0;
+    border-radius: 5px;
+    
+}
+.addEMPTitle{
+    text-align: center;
+    padding: 20px;
+    color:brown;
+}
+.addEMPitems{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 80px;
+    margin: 20px;
+}
+.addItemLabel{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.addItemInput{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.submit{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+    color: white;
+    background-color: darkblue;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 270px;
+    font-size: 18px;
+    font-weight: 400;
+}

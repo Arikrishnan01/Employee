@@ -1,0 +1,100 @@
+.home-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: black;
+    color: red;
+    width: auto;
+    height: 45px;
+    /* border: 1px solid red; */
+}
+.home-header-title{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 7px 10px;
+}
+.home-header-title:hover{
+    border: 1px solid red;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+/* .home-contents{
+    width: 75%;
+    height: 70vh;
+    margin: 30px;
+    padding: 30px;
+} */
+/* styles.css */
+.home-contents{
+    margin: 30px 120px;
+}
+  .custom-table {
+    border-collapse: collapse;
+    width: 95%;
+    max-width: 1000px; /* Limiting the width for better readability */
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+.tableEmpedit{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: green;
+    padding: 7px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.tableEmpeDelete{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: red;
+    padding: 7px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    width: 60px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.addNewEmp{
+    border: none;
+    outline: none;
+    color: red;
+    background-color: black;
+    padding: 7px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    width: 120px;
+    height: 45px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.addNew-con{
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
