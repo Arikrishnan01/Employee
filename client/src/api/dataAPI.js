@@ -9,5 +9,5 @@ export async function getAllEmp(){
 
 // create new emp data
 export async function createEMP(data){
-    return axios.post(`http://localhost:5000/emp/createEmp`,data);
+    return axios.post(`https://employee-tv37.onrender.com/emp/createEmp`,data);
 }
