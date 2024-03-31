@@ -72,7 +72,7 @@ export default function AddEMP() {
     catch(error){
       setLoading(true);
       console.log(`Error occured: ${error.message}`);
-      notifyFailed();
+      // notifyFailed();
       setLoading(false);
     }
   }
